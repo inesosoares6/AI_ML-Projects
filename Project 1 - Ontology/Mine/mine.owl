@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#"
+     xml:base="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasAnimals -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasAnimals"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasAthletes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasAthletes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCityPass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCityPass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCoach -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCoach"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCountryOfOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCountryOfOrigin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasFat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasFat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasGas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasGas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasSpiciness -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasSpiciness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasTeamMates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasTeamMates"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasSpots -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasSpots"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Acrobatic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Acrobatic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gymnastics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Artistic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Artistic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gymnastics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Athletics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Athletics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#IndividualSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Bachelor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Bachelor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Bicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Bicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Private"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#BrazilianFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#BrazilianFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Private"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Casino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Casino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ChineseFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ChineseFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Education"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FastFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FastFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasFat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FastFood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Football -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Football">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#TeamSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ForeignLanguages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ForeignLanguages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FrenchFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FrenchFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Garden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Garden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gym -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gym">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasAthletes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gymnastics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasAthletes"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Athletics"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Karate"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gymnastics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gymnastics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#IndividualSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Handball -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Handball">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#TeamSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#HealthyFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#HealthyFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#HighSchool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#HighSchool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#IndividualSports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#IndividualSports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sports"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ItalianFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ItalianFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Karate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Karate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#IndividualSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Location">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Marathon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Marathon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Athletics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Master -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Master">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MeansTransportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MeansTransportation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MexicanFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MexicanFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasSpiciness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MexicanFood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Monument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Monument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MotherTongue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MotherTongue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Motorcycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Motorcycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Private"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#PhD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#PhD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Playground -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Playground">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Pool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Pool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#PortugueseFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#PortugueseFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCalories"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Private -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Private">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MeansTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ProgrammingLanguage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ProgrammingLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Public -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Public">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MeansTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rhythmic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rhythmic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Gymnastics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rugby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rugby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#TeamSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Scooter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Scooter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sports">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasCoach"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sprint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sprint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Athletics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#TeamSports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#TeamSports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasTeamMates"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#TeamSports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Tennis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Tennis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#IndividualSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Train -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Train">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Tram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Tram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Triathlon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Triathlon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Athletics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#University">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Volleyball -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Volleyball">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#TeamSports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasPlayers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Zoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Zoo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Place"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#hasAnimals"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Zoo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#America -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#America">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FastFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Burrito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Burrito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MexicanFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#China">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Football"/>
+        <hasCountryOfOrigin rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#China"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ChocolateSouffle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ChocolateSouffle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FrenchFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#England -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#England">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rugby"/>
+        <hasCountryOfOrigin rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#England"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FootballTeam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FootballTeam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Football"/>
+        <hasPlayers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</hasPlayers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#France -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#France">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FrenchFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Francesinha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Francesinha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#PortugueseFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Handball"/>
+        <hasCountryOfOrigin rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Germany"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Greece -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Greece">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Athletics"/>
+        <hasCountryOfOrigin rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Greece"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#HandballTeam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#HandballTeam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Handball"/>
+        <hasPlayers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</hasPlayers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Italy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ItalianFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Mexico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#MexicanFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Pasta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Pasta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ItalianFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#FastFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Portugal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Portugal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#PortugueseFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rodízio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rodízio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#BrazilianFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#RugbyTeam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#RugbyTeam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Rugby"/>
+        <hasPlayers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</hasPlayers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Salad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Salad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#HealthyFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sushi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Sushi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#ChineseFood"/>
+        <hasCalories rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</hasCalories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Volleyball"/>
+        <hasCountryOfOrigin rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#VolleyballTeam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#VolleyballTeam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ineso/ontologies/2019/9/untitled-ontology-25#Volleyball"/>
+        <hasPlayers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hasPlayers>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
